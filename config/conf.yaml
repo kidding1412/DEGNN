@@ -1,0 +1,33 @@
+Parameters:
+  batch_size: 128
+  big: true
+  bins: 16
+  bottle_neck_neurons: 32
+  diffpool: false
+  dropout: 0.2
+  epochs: 1
+  filters_1: 32
+  filters_2: 32
+  filters_3: 16
+  learning_rate: 0.001
+  load: null
+  nocall: false
+  notify: false
+  num_features: 32
+  plot: true
+  synth: false
+  tensor_neurons: 16
+  weight_decay: 0.0005
+paths:
+  evaluate: /home/dj/gnn2/evaluate/nocall_x86
+  model_path: /home/dj/gnn2/models
+  nocall_test: /home/dj/gnn2/dataset/no_call_dataset/nocall_x86_pairs
+  nocall_train: /home/dj/gnn2/dataset/no_call_dataset/new_train
+  output_path: /home/dj/gnn2/output
+  test_big_path: /home/dj/gnn2/dataset/new_test_big
+  test_path: /home/dj/dataset/x86_naglfar_pairs
+  train_big_path: /home/dj/gnn2/dataset/new_train_big
+  train_path: /home/dj/gnn2/dataset/new_train
+  best_model: /home/dj/gnn2/best_model/best_model.pth
+  nocall_model: /home/dj/gnn2/best_model/nocall_model.pth
+run_type: test
